@@ -55,6 +55,10 @@ section h2{
     margin: 20px 0;
     width: 90%;
 }
+section h3{
+    margin: 20px 0;
+    width: 80%;
+}
 section > div{
     width: 90%;
 }
@@ -138,6 +142,9 @@ section > div{
 }
 .comp p{
     flex: 0 0 40%;
+}
+.conteneur-barre{
+    flex: 0 0 60%;
     border-radius: 5px;
     background-color: grey;
     border-bottom: 1px ridge grey;
@@ -148,32 +155,31 @@ section > div{
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
-.c100{
-    width: 100%;
-    background-color: #8B8;
-    border-radius: 5px;
-}
-.c90{
-    width: 90%;
-    background-color: #8B8;
-}
-.c80{
-    width: 80%;
-    background-color: #8B8;
-}
-.c70{
-    width: 70%;
-    background-color: #8B8;
+.c50{
+    width: 50%;
+    background-color: #4B8;
 }
 .c60{
     width: 60%;
-    background-color: #8B8;
+    background-color: #4B8;
 }
-.c50{
-    width: 50%;
-    background-color: #8B8;
+.c70{
+    width: 70%;
+    background-color: #4B8;
 }
-
+.c80{
+    width: 80%;
+    background-color: #4B8;
+}
+.c90{
+    width: 90%;
+    background-color: #4B8;
+}
+.c100{
+    width: 100%;
+    background-color: #4B8;
+    border-radius: 5px;
+}
 .comp2{
     display: flex;
     flex-flow: row wrap;
@@ -198,4 +204,46 @@ section > div{
     height: 80px;
     border-radius: 50%;
     box-shadow: 0px 0px 15px #555;
+}
+@media screen and (min-width: 980px){
+    section{width:80%;
+    box-shadow: 0px 0px 10px #bbb;}
+}
+a:hover{
+    color: #EA0
+}
+header h1{
+    width: 80%;
+}
+.presentation, .contact{
+    flex: 0 0 45%;
+}
+.presentation{
+    border-bottom: none;
+    border-right: 2px solid #ccc;
+    padding-right: 20px;
+    margin-left: auto;
+}
+.contact{
+    padding-left: 20px;
+    margin-right: auto;
+}
+.presentation a{
+    border: 2px solid transparent;
+}
+.presentation a:hover{
+    color:  #f28835;
+    background-color: #fff;
+    border: 2px solid #f28835;
+    box-shadow: 0px 0px 20px #666;
+}
+.exp-logo{
+    flex: 0 0 10%;
+}
+.exp-info, .exp-desc{
+    flex: 0 0 85%;
+    margin-left: auto;
+}
+.interet{
+    flex: 0 1 25%;
 }
