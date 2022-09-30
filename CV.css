@@ -90,3 +90,15 @@ section > div{
 .contact-flex p:first-child{
     flex: 0 0 40%;
 }
+.contact-flex p:last-child{
+    flex: 0 0 60%;
+}
+.social{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px auto 0px auto;
+}
+.social img{
+    width: 40px;
+    height: 40px;
+}
